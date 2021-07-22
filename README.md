@@ -7,8 +7,9 @@ These traditional financial transaction functions include:
 - Withdrawal of Ethereum deposit plus interest
 - Borrowing a native token currency called 'Decentralised Bank Currency' or 'DBC' using Ethereum as collateral
 - Paying off your initial loan receiving back your collateral net fees.
-
-![Uploading Screen Shot 2021-07-23 at 12.30.37 am.png…]()
+- 
+![Uploading Phoenix-Bank.png…](Phoenix-Bank.png)
+)
 
 # Dependencies
 
@@ -23,8 +24,8 @@ You will need need a couple of things before you can interact with the decentral
 - Start Ganache and Quickstart a workspace. Ganache ables us to interact with the blockchain and run the simulation. If you want to know more about Ganache, visit their website, here: https://www.trufflesuite.com/ganache.
 - Open Terminal of your choice. Check if you have properly downloaded the Node.js by tpying "node.js -v". Check if tou have properly downloaded truffle by typing "truffle version"
 - Open the project up. If you're cloning the project tpye in "git clone https://github.com/chengwhk/decentralised-banking.git". If you're downloading the project into a zip file, you will need to open the project up manually in terminal.
-- Type "npm install" into terminal to download additional files for project.
-- and run the project by typing "npm run start" into terminal. This should open a localhost website.
+- Type "npm install" into terminal to download additional files for project. 
+- Run the project by typing "npm run start" into terminal. This should open a localhost website.
 - You will now need to connect metamask to the network. Read here if unsure: https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-custom-Network-RPC-and-or-Block-Explorer. Network Name: Ganache, New RPC URL: (listed at the top of Ganache under RPC Server), chain ID: (isted at the top of Ganache under Network ID), Symbol: DBC, and Block Explorer URL can be left empty.
 - And you're done! You should be able to interact with the decentralised bank through the website and play around with its functions.
 
