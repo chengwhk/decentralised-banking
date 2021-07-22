@@ -8,8 +8,6 @@ These traditional financial transaction functions include:
 - Borrowing a native token currency called 'Decentralised Bank Currency' or 'DBC' using Ethereum as collateral
 - Paying off your initial loan receiving back your collateral net fees.
 - 
-![Uploading Phoenix-Bank.png…](Phoenix-Bank.png)
-)
 
 # Dependencies
 
@@ -28,4 +26,7 @@ You will need need a couple of things before you can interact with the decentral
 - Run the project by typing "npm run start" into terminal. This should open a localhost website.
 - You will now need to connect metamask to the network. Read here if unsure: https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-custom-Network-RPC-and-or-Block-Explorer. Network Name: Ganache, New RPC URL: (listed at the top of Ganache under RPC Server), chain ID: (isted at the top of Ganache under Network ID), Symbol: DBC, and Block Explorer URL can be left empty.
 - And you're done! You should be able to interact with the decentralised bank through the website and play around with its functions.
+
+<img width="1440" alt="Phoenix-Bank" src="https://user-images.githubusercontent.com/87778179/126665964-54c37eb9-d534-454e-a176-793e947cda44.png">
+
 
