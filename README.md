@@ -7,7 +7,7 @@ These traditional financial transaction functions include:
 - Withdrawal of Ethereum deposit plus interest
 - Borrowing a native token currency called 'Decentralised Bank Currency' or 'DBC' using Ethereum as collateral
 - Paying off your initial loan receiving back your collateral net fees.
-- 
+
 
 # Dependencies
 
