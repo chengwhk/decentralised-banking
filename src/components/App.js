@@ -2,7 +2,7 @@ import { Tabs, Tab } from 'react-bootstrap'
 import dBank from '../abis/dBank.json'
 import React, { Component } from 'react';
 import Token from '../abis/Token.json'
-import pheonixbank from '../phoenixbank.png';
+import keithsbank from '../keithsbank.png';
 import Web3 from 'web3';
 import './App.css';
 
@@ -108,6 +108,11 @@ class App extends Component {
       dBankAddress: null
     }
   }
+  // display(){
+  //   var col=document.getElementById("text-colour");
+  //   col.style.color="#FFFFFF";    
+  // }
+
 
   render() {
     return (
@@ -118,17 +123,21 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-        <img src={pheonixbank} className="App-logo" alt="logo" height="32"/>
-          <b> Phoenix Bank</b>
+        <img src={keithsbank} className="App-logo" alt="logo" height="32"/>
+          <style>{'body { background-color: navy; }'}</style>
+          <style>{'b { color: silver; }'}</style>
+          <b> Keith's Bank</b>
         </a>
         </nav>
         <div className="container-fluid mt-5 text-center">
         <br></br>
-          <h1>Welcome to Pheonix Bank</h1>
+          <style>{'h1 { color: silver; }'}</style>
+          <style>{'h5 { color: silver; }'}</style>
+          <h1>Welcome to Keith's Bank</h1>
           <h5>Your account address: {this.state.account}</h5>
           <h5>Your account balance: {this.state.balanceEther} ETH </h5>
           <h5>Your account token balance: {this.state.tokenBalanceEther} DBC </h5>
-          <h5>Phoenix Bank account balance: {this.state.dbankBalanceEther} ETH </h5>
+          <h5>Keith's Bank account balance: {this.state.dbankBalanceEther} ETH </h5>
           <br></br>
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
@@ -161,6 +170,7 @@ class App extends Component {
                           required />
                       </div>
                       <button type='submit' className='btn btn-primary'>DEPOSIT</button>
+                      
                     </form>
 
                   </div>
@@ -222,6 +232,8 @@ class App extends Component {
               </div>
             </main>
           </div>
+          <br></br>
+            <img src={keithsbank} className="App-background" alt="background" height="400"/>
         </div>
       </div>
     );
