@@ -20,7 +20,7 @@ You will need need a couple of things before you can interact with the decentral
 # Opening the Project
 
 - Start Ganache and Quickstart a workspace. Ganache ables us to interact with the blockchain and run the simulation. If you want to know more about Ganache, visit their website, here: https://www.trufflesuite.com/ganache.
-- Open Terminal of your choice. Check if you have properly downloaded the Node.js by tpying "node -v". Check if tou have properly downloaded truffle by typing "truffle version"
+- Open Terminal of your choice. Check if you have properly downloaded the Node.js by tpying "node -v". Check if you have properly downloaded truffle by typing "truffle version"
 - Open the project up. If you're cloning the project tpye in "git clone https://github.com/chengwhk/decentralised-banking.git". If you're downloading the project into a zip file, you will need to open the project up manually in terminal.
 - Type "npm install" into terminal to download additional files for project. 
 - Run the project by typing "npm run start" into terminal. This should open a localhost website.
