@@ -108,10 +108,6 @@ class App extends Component {
       dBankAddress: null
     }
   }
-  // display(){
-  //   var col=document.getElementById("text-colour");
-  //   col.style.color="#FFFFFF";    
-  // }
 
 
   render() {
@@ -124,15 +120,15 @@ class App extends Component {
             rel="noopener noreferrer"
           >
         <img src={keithsbank} className="App-logo" alt="logo" height="32"/>
-          <style>{'body { background-color: navy; }'}</style>
-          <style>{'b { color: silver; }'}</style>
+//           <style>{'body { background-color: navy; }'}</style>
+//           <style>{'b { color: silver; }'}</style>
           <b> Keith's Bank</b>
         </a>
         </nav>
         <div className="container-fluid mt-5 text-center">
         <br></br>
-          <style>{'h1 { color: silver; }'}</style>
-          <style>{'h5 { color: silver; }'}</style>
+//           <style>{'h1 { color: silver; }'}</style>
+//           <style>{'h5 { color: silver; }'}</style>
           <h1>Welcome to Keith's Bank</h1>
           <h5>Your account address: {this.state.account}</h5>
           <h5>Your account balance: {this.state.balanceEther} ETH </h5>
